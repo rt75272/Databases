@@ -3,9 +3,9 @@
 --  # \i path_to_sql_file
 
 create table if not exists accounts (
-    acc_id          varchar(15) not null,
-    acc_num         numeric(15),
-    user_name         varchar(15),
+    acc_id      varchar(15) not null,
+    acc_num     numeric(15),
+    user_name   varchar(15),
     primary key (acc_id)
 );
 
